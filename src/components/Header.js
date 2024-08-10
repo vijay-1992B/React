@@ -1,6 +1,9 @@
 import { LOGO_URL } from "../utils/constants";
+import { useState, useEffect } from "react";
 
 const Header = () =>{
+  const [navBtn, setNavBtn] = useState("Log in")
+  
     return (
       <div className="header">
         <div className="logo-container">
@@ -12,6 +15,9 @@ const Header = () =>{
             <li>About</li>
             <li>Contact us</li>
             <li>Cart</li>
+            <button onClick={()=>{
+              navBtn ==="Log in" ? setNavBtn("Log out") : setNavBtn("Log in");
+            }}>{navBtn}</button>
           </ul>
         </div>
       </div>

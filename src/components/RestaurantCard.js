@@ -13,7 +13,7 @@ const RestaurantCard = (props) => {
       <div className="restro-card">
         <div className="restro-logo">
           <img className="img"src={CDN_URL + cloudinaryImageId} />
-          <h2>{aggregatedDiscountInfoV3.header+" "+aggregatedDiscountInfoV3.subHeader}</h2>
+          {/* <h2>{aggregatedDiscountInfoV3.header+" "+aggregatedDiscountInfoV3.subHeader}</h2> */}
           <div className="content-box">
           <h3>{name}</h3>
           <p>Rating {avgRating+" . "+sla.slaString}</p>

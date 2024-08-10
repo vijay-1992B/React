@@ -74,7 +74,7 @@
     font-size: 20px;
 }
 
-.restro-container{
+.restro-container,.shimmer-container{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -82,8 +82,21 @@
 }
 
 .filter-btn{
-    margin: 30px 80px;
     cursor: pointer;
+}
+
+.shimmer-card{
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+}
+
+.filter{
+    margin: 30px 80px;
+    display: flex;
+    gap: 30px;
 }
 
 
