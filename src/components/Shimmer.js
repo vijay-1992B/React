@@ -1,18 +1,27 @@
 const Shimmer = () => {
     return (
-        <div className="shimmer-container">
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
-            <div className="shimmer-card"></div>
+        <div className="flex flex-wrap gap-8 px-[144px] mt-20">
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            <div className="h-44 w-60 bg-custom-gray rounded-2xl"></div>
+            
         </div>
     )
 };

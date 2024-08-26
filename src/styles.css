@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+    .gradient-bottom-65 {
+      @apply absolute inset-0 rounded-2xl;
+      background: linear-gradient(rgba(27, 30, 36, 0) 40%, rgb(27, 30, 36) 95%);
+    }
+  }
+
+.truncate-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+
